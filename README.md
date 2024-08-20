@@ -125,4 +125,6 @@ The request body needs to be in JSON format and include the following properties
 
 The response body will contain the access token. The access token is valid for 7 days.
 
-**Possible errors**v
+**Possible errors**
+
+Status code 409 - "API client already registered." Try changing the values for `clientEmail` and `clientName` to something else.
